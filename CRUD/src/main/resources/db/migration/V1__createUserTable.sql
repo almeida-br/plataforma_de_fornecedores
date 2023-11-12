@@ -1,0 +1,4 @@
+CREATE TABLE user{
+    nome VARCHAR(100) NOT NULL;
+    cpf VARCHAR(11) NOT NULL;
+}
