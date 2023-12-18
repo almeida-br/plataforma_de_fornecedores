@@ -1,6 +1,6 @@
-package com.spring_boot.CRUD.model;
+package com.spring_boot.CRUD.model.product;
 
-public enum ItemCategory {
+public enum Category {
     FOOD{
         @Override
         public String descricaoDeCategoria(){

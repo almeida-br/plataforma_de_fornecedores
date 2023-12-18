@@ -1,15 +1,17 @@
 package com.spring_boot.CRUD.service;
 
-import com.spring_boot.CRUD.model.Product;
-import com.spring_boot.CRUD.record.RequestProduct;
+import com.spring_boot.CRUD.model.product.RequestProduct;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.spring_boot.CRUD.model.product.Product;
 import com.spring_boot.CRUD.repository.ProductRepository;
 
-public class ProductRegisterService {
+public class ProductService {
+    @Autowired
     ProductRepository repo;
 
-    public void registrarProduto(RequestProduct requestProduct) {
-        Product produto=new Product(requestProduct);
-        repo.save(produto);
+    public void registrarProduto(/*RequestProduct requestProduct*/) {
+       /* Product produto=new Product();
+        repo.save(produto);*/
     }
 
 

@@ -1,4 +1,4 @@
-package com.spring_boot.CRUD.model.record;
+package com.spring_boot.CRUD.model.product;
 
 import com.spring_boot.CRUD.model.entity.Category;
 import com.spring_boot.CRUD.model.entity.Supplier;

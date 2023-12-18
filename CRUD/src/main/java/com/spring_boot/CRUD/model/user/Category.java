@@ -1,6 +1,6 @@
-package com.spring_boot.CRUD.model;
+package com.spring_boot.CRUD.model.user;
 
-public enum CompanyCategory {
+public enum Category {
 
 
     CLIENT{

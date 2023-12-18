@@ -1,5 +1,7 @@
-package com.spring_boot.CRUD.model.entity;
+package com.spring_boot.CRUD.model.order;
 
+import com.spring_boot.CRUD.model.product.Product;
+import com.spring_boot.CRUD.model.user.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +16,7 @@ import org.springframework.stereotype.Component;
 public class OrderItem {
 
     private Product produto;
-    private Supplier fornecedor;
+    private User fornecedor;
     private int precoUnitarioEmCentavos;
     private int quantidade;
 }

@@ -1,6 +1,6 @@
-package com.spring_boot.CRUD.model.entity;
+package com.spring_boot.CRUD.model.user;
 
-import com.spring_boot.CRUD.record.RequestUser;
+import com.spring_boot.CRUD.model.user.dto.RequestUser;
 import jakarta.persistence.*;
 import lombok.*;
 import org.springframework.data.annotation.Id;

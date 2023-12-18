@@ -1,6 +1,6 @@
-package com.spring_boot.CRUD.model.entity;
+package com.spring_boot.CRUD.model.product;
 
-import com.spring_boot.CRUD.record.RequestProduct;
+import com.spring_boot.CRUD.model.user.User;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import lombok.Getter;
@@ -20,16 +20,10 @@ public class Product{
     private String descricao;
     private Integer precoEmCentavos;
     private LocalDate dataCadastro;
-    private Supplier fornecedor;
+    private User fornecedor;
     private Category categoria;
 
 
-    public Product(RequestProduct requestProduct) {
-        this.id=requestProduct.id();
-        this.descricao=requestProduct.descricao();
-        this.precoEmCentavos=requestProduct.precoEmCentavos();
-        this.dataCadastro=requestProduct.dataCadastro();
-        this.fornecedor=requestProduct.fornecedor();
-        this.categoria=requestProduct.categoria();
+    public Product() {
     }
 }

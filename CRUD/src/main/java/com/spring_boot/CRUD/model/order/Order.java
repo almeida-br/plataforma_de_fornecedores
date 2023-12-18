@@ -1,4 +1,4 @@
-package com.spring_boot.CRUD.model.entity;
+package com.spring_boot.CRUD.model.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,6 +20,7 @@ public class Order {
     private Long id;
     private LocalDate dataDoPedido;
     private boolean foiConcluido;
+    private LocalDate dataDeConclusao;
     private List<OrderItem> itens=new ArrayList<OrderItem>();
 
 }

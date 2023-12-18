@@ -1,9 +1,7 @@
-package com.spring_boot.CRUD.model.repository;
+package com.spring_boot.CRUD.repository;
 
-import com.spring_boot.CRUD.model.entity.Product;
-import org.springframework.context.annotation.Bean;
+import com.spring_boot.CRUD.model.product.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.RepositoryDefinition;
 import org.springframework.stereotype.Repository;
 
 import java.util.Optional;
