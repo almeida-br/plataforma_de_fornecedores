@@ -7,7 +7,7 @@ public class ProductService {
     @Autowired
     ProductRepository repo;
 
-    public void registrarProduto(/*RequestProduct requestProduct*/) {
+    public void registerProduct(/*RequestProduct requestProduct*/) {
        /* Product produto=new Product();
         repo.save(produto);*/
     }

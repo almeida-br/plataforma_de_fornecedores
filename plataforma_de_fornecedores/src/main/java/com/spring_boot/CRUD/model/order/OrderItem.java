@@ -15,8 +15,8 @@ import org.springframework.stereotype.Component;
 @Setter
 public class OrderItem {
 
-    private Product produto;
-    private User fornecedor;
-    private int precoUnitarioEmCentavos;
-    private int quantidade;
+    private Product product;
+    private User supplier;
+    private int priceInCents;
+    private int quantity;
 }

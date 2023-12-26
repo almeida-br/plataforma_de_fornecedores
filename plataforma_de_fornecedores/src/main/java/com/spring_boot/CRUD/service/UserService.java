@@ -11,12 +11,16 @@ public class UserService {
 
     UserRepository repository;
 
-    public void registrarUsuario() {
-            //repository.save();
+    public void registerUser(User user) {
+            repository.save(user);
     }
 
-    public Optional<User> buscarUsuario(Long id){
-        return repository.findById(id);
+    public User findUser(Long id){
+        User user=repository.findById(id).get();
+        return user;
     }
 
+    public boolean userExists(Long id){
+        return repository.existsById(id);
+    }
 }

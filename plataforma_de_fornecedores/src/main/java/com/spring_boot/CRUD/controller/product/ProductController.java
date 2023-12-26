@@ -10,7 +10,7 @@ public class ProductController{
 
     @PostMapping
     public boolean postProduct(){
-        service.registrarProduto();
+        service.registerProduct();
         return true;
     }
 }

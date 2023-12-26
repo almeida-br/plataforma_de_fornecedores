@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableJpaRepositories("com.spring_boot.CRUD.controllers.repository")
 public class CrudApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(CrudApplication.class, args);
 	}

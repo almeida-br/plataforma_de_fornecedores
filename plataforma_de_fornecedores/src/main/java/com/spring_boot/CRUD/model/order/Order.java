@@ -18,9 +18,9 @@ import java.util.List;
 public class Order {
 
     private Long id;
-    private LocalDate dataDoPedido;
-    private boolean foiConcluido;
-    private LocalDate dataDeConclusao;
-    private List<OrderItem> itens=new ArrayList<OrderItem>();
+    private LocalDate orderDate;
+    private boolean isFinished;
+    private LocalDate dateOfConclusion;
+    private List<OrderItem> items=new ArrayList<OrderItem>();
 
 }
